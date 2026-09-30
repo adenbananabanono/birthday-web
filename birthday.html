@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+   @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Patrick+Hand&display=swap');
+
+     body {
+            background-color: #100C16;
+                margin: 0;
+               font-family: "Cherry Bomb One", cursive;
+                }
+
+        .birthday {
+            color:#C4A7FF;
+        }
+        .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.birthday {
+    color: #C4A7FF;
+    font-size: 110px;
+    margin: 0;
+    white-space: nowrap;
+    
+}
+
+.birthday {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.birthday:hover {
+    transform: translateY(-10px);
+}
+
+.date {
+    color:#7C5CBF;
+    font-family: "Sniglet", cursive;
+    font-size: 35px;
+    margin-top: -40px;
+    margin-right: -20px
+}
+
+.date {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.date:hover {
+    transform: translateY(-10px);
+}
+
+    </style>
+</head>
+
+<body>
+<center>
+      <div class="hero">
+    <h1 class="birthday"> Happy birthday, Vinvin!</h1>
+
+   <h1 class="date"> <p>11.22.2026</p> </h1>
+   
+    </div>
+</center>
+</body>
+
+<div class="stars">
+    <span class="star s1">✦</span>
+    <span class="star s2">✧</span>
+    <span class="star s3">✦</span>
+    <span class="star s4">✧</span>
+    <span class="star s5">✦</span>
+    <span class="star s6">✧</span>
+    <span class="star s7">✦</span>
+    <span class="star s8">✧</span>
+    <span class="star s9">✦</span>
+    <span class="star s10">✧</span>
+    <span class="star s11">✦</span>
+    <span class="star s12">✧</span>
+    <span class="star s13">✦</span>
+    <span class="star s14">✧</span>
+    <span class="star s15">✦</span>
+    <span class="star s16">✧</span>
+    <span class="star s17">✦</span>
+    <span class="star s18">✧</span>
+    <span class="star s19">✦</span>
+    <span class="star s20">✧</span>
+    <span class="star s21">✦</span>
+    <span class="star s22">✧</span>
+    <span class="star s23">✦</span>
+    <span class="star s24">✧</span>
+    <span class="star s25">✦</span>
+    <span class="star s26">✧</span>
+    <span class="star s27">✦</span>
+    <span class="star s28">✧</span>
+    <span class="star s29">✦</span>
+    <span class="star s30">✧</span>
+</div>
+
+<style>
+    .stars {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+}
+
+.star {
+    position: absolute;
+    color: #C4A7FF;
+    text-shadow: 0 0 10px #C4A7FF;
+}
+
+/* positions */
+
+.s1  { top: 5%;  left: 8%; }
+.s2  { top: 12%; left: 18%; }
+.s3  { top: 7%;  left: 32%; }
+.s4  { top: 18%; left: 45%; }
+.s5  { top: 9%;  left: 58%; }
+.s6  { top: 15%; left: 72%; }
+.s7  { top: 6%;  left: 88%; }
+
+.s8  { top: 27%; left: 5%; }
+.s9  { top: 32%; left: 15%; }
+.s10 { top: 25%; left: 28%; }
+.s11 { top: 30%; left: 40%; }
+.s12 { top: 23%; left: 55%; }
+.s13 { top: 35%; left: 67%; }
+.s14 { top: 28%; left: 82%; }
+.s15 { top: 40%; left: 94%; }
+
+.s16 { top: 48%; left: 8%; }
+.s17 { top: 55%; left: 20%; }
+.s18 { top: 45%; left: 35%; }
+.s19 { top: 60%; left: 50%; }
+.s20 { top: 50%; left: 65%; }
+.s21 { top: 58%; left: 78%; }
+.s22 { top: 48%; left: 90%; }
+
+.s23 { top: 70%; left: 5%; }
+.s24 { top: 75%; left: 18%; }
+.s25 { top: 68%; left: 35%; }
+.s26 { top: 82%; left: 55%; }
+.s27 { top: 72%; left: 70%; }
+.s28 { top: 85%; left: 82%; }
+.s29 { top: 75%; left: 94%; }
+
+.s30 { top: 92%; left: 42%; }
+
+
+    .s1, .s7, .s15, .s22 {
+    font-size: 30px;
+}
+
+.s3, .s10, .s18, .s27 {
+    font-size: 20px;
+}
+
+.s5, .s12, .s20, .s25 {
+    font-size: 12px;
+
+}
+
+.star {
+    position: absolute;
+    color: #C4A7FF;
+    font-size: 25px;
+    text-shadow: 0 0 10px #C4A7FF;
+}
+
+.star {
+    animation: twinkle 2s infinite alternate;
+}
+
+@keyframes twinkle {
+    from {
+        opacity: 0.3;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+    
+</style>
+
+<div class="date-container"> 
+    <span class="decoration">────────────✦✧</span> 
+</div> 
+ 
+<style> 
+.date-container { 
+    display: flex; 
+    justify-content: flex-start; 
+    width: 50%; 
+} 
+ 
+.decoration { 
+    color: #b994ff; 
+    font-size: 30px; 
+    font-weight: bold;
+    transform: translate(349px, -341px);
+    white-space: nowrap;
+ 
+} 
+</style> 
+ 
+ 
+<div class="date-container2"> 
+    <span class="decoration2">✧✦─────────────</span> 
+</div> 
+ 
+<style> 
+.date-container2 { 
+    display: flex; 
+    justify-content: flex-end; 
+    width: 50%; 
+    margin-left: 50%; 
+} 
+ 
+.decoration2 { 
+    color: #b994ff; 
+    font-size: 30px; 
+    font-weight: bold;
+    transform: translate(-308px, -385px);
+    white-space: nowrap;
+} 
+</style>
+
+<head>
+    <center>
+    <h2 class="scroll"> <p> scroll down and click the paws~!</p></h2>
+    </center>
+</head>
+
+<style> 
+
+.scroll {
+    color:#7C5CBF;
+    font-family: "Sniglet", cursive;
+    font-size: 35px;
+    margin-top: -400px;
+    transform: translate(20px, -0px);
+}
+
+</style>
+</html>
